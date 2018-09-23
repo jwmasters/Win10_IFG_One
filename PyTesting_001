@@ -1,0 +1,17 @@
+import __builtin__
+
+# with open('workfile', 'w') as f:
+f = open('workfile', 'w')
+
+textfile = dir(__builtin__)
+
+print textfile
+
+def vertlist():
+    for line in textfile:
+        f.write(line + "\n")
+        # print line
+
+vertlist()
+
+f.close
