@@ -2,7 +2,7 @@
 
 #---------------------------------------------------
 #--binary search with mid logic---------------------
-#--look for a value with in the list             ---
+#--look for a value with in the passed-in list             ---
 def bsearch(l, value):
   lo, hi = 0, len(l) -1
   while lo <= hi:
